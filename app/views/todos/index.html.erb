@@ -1,0 +1,10 @@
+<h1>Todos#index</h1>
+<p>Find me in app/views/todos/index.html.erb</p>
+
+<%= form_for @todo do |f| %>
+  <%= f.text_field :content, placeholder: :content %>
+  <%= f.submit %>
+<% end %>
+
+<div id="todos-con">
+</div>
